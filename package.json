@@ -1,0 +1,27 @@
+{
+  "name": "@dpack/get",
+  "version": "0.1.1",
+  "description": "Bulk data and/or metadata downloader for large lists of HTTP and FTP urls",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@dwcore/channel": "dwcore/channel#master",
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "content-addressable-blob-store": "^4.3.0",
+    "mkdirp": "^0.5.1",
+    "ndjson": "^1.5.0",
+    "parallel-transform": "^1.1.0",
+    "unordered-parallel-transform": "^1.0.0",
+    "request": "^2.79.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
